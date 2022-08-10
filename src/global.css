@@ -1,0 +1,35 @@
+.niceButton{
+    border-radius: 30px;
+    background-color: #E39726;
+    width: 10%;
+    height: 20%;
+    cursor: pointer;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease-in-out;  
+}
+
+.niceButton:hover {
+  transform: scale(0.95) translateX(-5px);
+  transition: all 0.5s ease-in-out;
+}
+
+  .right{
+    position: relative;
+    float: right;
+    margin-right:2%;
+  }
+
+.navbarColor{
+    background-color: #0054D2;
+    color: white;
+  }
+
+  .centrado{
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+  }
